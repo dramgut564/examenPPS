@@ -11,7 +11,9 @@
                 <link href="estilos.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>	
-		<?php if(isset($aviso)){
+		<?php 
+                     /*Se realiza comprobacion de si existe el aviso !!!!!!!*/                   
+                     if(isset($aviso)){
 			echo "<p class=aviso>$aviso</p>";
 		}?>
 		<form action = 'pagina2.php' method = "POST">
